@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.homepage       = package['homepage']
   s.platform       = :ios, '13.4'
   s.swift_version  = '5.4'
-  s.source         = { git: 'https://github.com/simonsturge/expo-http-server' }
+  s.source         = { git: 'https://github.com/kccd/expo-http-server' }
   s.static_framework = true
 
   s.dependency 'ExpoModulesCore'
-  s.dependency 'Criollo'
+  s.dependency 'Criollo', :git => 'https://github.com/pxgo/criollo.git', :tag => 'v0.0.1'
   s.dependency 'CocoaAsyncSocket'
 
   # Swift/Objective-C compatibility
