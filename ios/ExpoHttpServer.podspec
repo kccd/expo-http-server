@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.dependency 'ExpoModulesCore'
-  s.dependency 'Criollo', :git => 'https://github.com/pxgo/criollo.git', :tag => 'v0.0.1'
+  s.dependency 'Criollo'
   s.dependency 'CocoaAsyncSocket'
 
   # Swift/Objective-C compatibility
